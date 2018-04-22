@@ -1,0 +1,163 @@
+/* CSS Document */
+@charset "UTF-8";
+
+body {
+background-color: grey	
+}
+
+.shadowbox {
+  border: 1px solid black;
+box-shadow: 8px 8px 5px black}
+
+nav{
+	margin: auto;
+	width:650px;
+}
+
+#projectwall{
+    position: absolute;
+    z-index: -5;
+} 
+
+#gradient {
+    background: linear-gradient(grey, black);
+} 
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:15px;
+   width:50%;
+   background:grey;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+nav li {
+    float: left;
+}
+
+nav a:link, nav a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px solid black;
+}
+
+nav a:hover, nav a:active {
+    background-color: yellow;
+    color: red;
+}
+
+img {
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.container {
+    position: fixed;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%, -25%);
+}
+
+.rounded{
+	border-radius:50%;
+}
+
+
+mark{
+	background-color:black;
+	position: relative;
+	color:white;
+	font-size:25px
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+	
+}
+
+
+.design {
+    float: left;
+    width: 50%;
+}
+
+
+#contain{
+	background-color:black;
+	margin: 3px 0px;
+	
+}
+
+	  
+p {
+	font-family: georgia;
+	font-size: 20px;
+
+}
+
+li {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+	font-size:32px;
+}
+
+ul{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+table, th, td {
+	border: 1px solid black;	
+}
+
+h1 {
+	font-family: Cambria, "Liberation Serif"; 
+	color: black;
+	text-align: center
+}
+
+h2 {
+	font-family: Gotham, "Helvetica Neue";
+}
+
+h3 {
+	text-align: justify;
+}
+		
+
+a {
+	text-decoration: none;
+	color: blue
+}
+
+
+footer {
+ border: 1px solid black;
+box-shadow: 8px 8px 5px black	
+}
